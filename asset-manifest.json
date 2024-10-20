@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/wcstallions/static/css/main.c17dc45e.css",
+    "main.js": "/wcstallions/static/js/main.e6d585ba.js",
+    "static/js/453.39ed1041.chunk.js": "/wcstallions/static/js/453.39ed1041.chunk.js",
+    "static/media/logo.png": "/wcstallions/static/media/logo.3c2a68cd587c5bf97a96.png",
+    "index.html": "/wcstallions/index.html",
+    "main.c17dc45e.css.map": "/wcstallions/static/css/main.c17dc45e.css.map",
+    "main.e6d585ba.js.map": "/wcstallions/static/js/main.e6d585ba.js.map",
+    "453.39ed1041.chunk.js.map": "/wcstallions/static/js/453.39ed1041.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c17dc45e.css",
+    "static/js/main.e6d585ba.js"
+  ]
+}
