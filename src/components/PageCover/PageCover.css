@@ -1,0 +1,15 @@
+.page-cover {
+    display: flex;
+    flex-direction: column;
+    background-color: #680e4b;
+    background-image: none;
+    box-shadow: inset 0 0 30px #270321;
+
+    & h2, h3 {
+        color: #fff;}
+}
+
+.logo {
+    margin-top: 100px;
+    width: 50%;
+}

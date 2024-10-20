@@ -1,0 +1,91 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 800px;
+    transform-style: preserve-3d;
+    background-image: url("https://snoflinganwelsh.weebly.com/uploads/4/8/9/6/4896934/white-paper-texture-background_orig.jpg");
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+.page-content {
+    padding: 8px;
+}
+
+.page-tophalf {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.horse-image-by {
+    height: 250px;
+    width: 50%;
+    margin: 0 24px;
+
+    & p {
+        font-size: 12px;
+        text-align: right;
+        margin: 0;
+    }
+}
+
+.horse-image {
+    width: auto;
+    max-height: 200px;
+    
+}
+
+.page-sideinfo {
+    display: flex;
+    flex-direction: column;
+    margin: 12px;
+    text-align: left;
+
+    & p {
+        margin: 4px 0;
+    }
+
+    & a {
+        margin-top: 24px;
+    }
+}
+
+.page-bottomhalf {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+}
+
+.page-pedigree {
+    font-family: "Roboto", sans-serif;
+    margin-top: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+
+.pedigree-first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-row: span 4;
+}
+
+.pedigree-second {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-row: span 2;
+}
+
+.pedigree-third {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-row: span 1;
+}
+
+.page-contact {
+    margin-top: 60px;
+}
